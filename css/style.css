@@ -1,0 +1,157 @@
+a{
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navig{
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+    margin-top: 24px;
+}
+.logo{
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 24px;
+    margin-left:99px ;
+    margin-bottom: 18px;
+}
+.header{
+    vertical-align: middle;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+nav{
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.li1{
+    margin-right: 45px;
+    margin-left: 50px;
+}
+.li2{
+    margin-right: 70px;
+    margin-left: 55px;
+}
+/* /2section/ */
+
+.cont{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imgs/bg1.jpg");
+    background-size: cover;
+    height: 606px;
+    text-align: center;
+}
+.satauriDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.satauri{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.suratzeH{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+/* section 3 */
+
+
+.sec2Cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 858;
+    margin-top: 84px;
+}
+.div-1{
+    margin-top: 84px;
+    margin-left: 100px;
+}
+.Discover{
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.div1P{
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.div1H{
+    margin-top: 9px;
+    margin-bottom: 37px;
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.pDiv{
+    width: 235px;
+    height: 115px;
+}
+
+.div-2{
+    margin-left: 83px;
+    margin-top: 84px;
+    display: flex;
+    flex-flow:row wrap;
+    width: 950px;
+    height: 880px;
+}
+p{
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 286px;
+    height: 63px;
+}
+h5{
+    margin-top: 23px;
+    margin-bottom: 9px;
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.group2{
+  margin-left: 33px;
+  margin-right: 33px;
+}
