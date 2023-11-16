@@ -47,18 +47,18 @@ nav{
 /* /2section/ */
 
 .cont{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../imgs/bg1.jpg");
     background-size: cover;
     height: 606px;
     text-align: center;
+    max-width: 1924px;
+    width: 100%;
 }
+
 .satauriDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .satauri{
     color: #FFF;
@@ -84,13 +84,14 @@ nav{
 
 .sec2Cont{
     display: flex;
-    flex-wrap: wrap;
-    width: 858;
+    /* flex-wrap: wrap;
+    width: 858; */
     margin-top: 84px;
 }
 .div-1{
     margin-top: 84px;
     margin-left: 100px;
+    width: 235px;
 }
 .Discover{
     color: #636060;
@@ -128,8 +129,8 @@ nav{
     margin-top: 84px;
     display: flex;
     flex-flow:row wrap;
-    width: 950px;
-    height: 880px;
+    max-width: 950px;
+    width: 100%;
 }
 p{
     color: #636060;
@@ -154,4 +155,12 @@ h5{
 .group2{
   margin-left: 33px;
   margin-right: 33px;
+}
+
+.fa-bars{
+    display: none;
+}
+.card{
+    width: 286px;
+    margin-bottom: 60px;
 }
